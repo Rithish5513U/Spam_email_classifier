@@ -38,7 +38,7 @@ def transformer(text):
 
     return " ".join(text)
 
-st.title("Email Spam Classifier")
+st.title("Spam Email Classifier")
 email = st.text_area("Enter message ")
 
 if st.button('Predict'):
